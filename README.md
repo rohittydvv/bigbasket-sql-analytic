@@ -98,7 +98,7 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 For questions, collaboration, or portfolio feedback:
 
 **Email:** rohit.ydvv23@gmail.com  
-**LinkedIn:** [LinkedIn](https://linkedin.com/in/rohittydvv)
+**LinkedIn:** [Rohit Yadav](https://linkedin.com/in/rohittydvv)
 
 ---
 
