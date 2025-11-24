@@ -1,12 +1,12 @@
-# BigBasket Quick Commerce Data Analytics Using SQL
+# 🛒 BigBasket Quick Commerce Data Analytics Using SQL
 
-## Description
+## 📝 Description
 
 End-to-end SQL analytics project using BigBasket quick commerce transactional data. This repository demonstrates advanced SQL skills across data engineering, modeling, cleansing, analysis, and insight generation.
 
-## Data Architecture Diagram
+## 🏗️ Data Architecture
 
-*Diagram*
+diagrams/data_architecture.png
 
 **Bronze Layer:** Raw CSV data ingestion, all fields as-is for traceability.  
 **Silver Layer:** Cleansed, standardized tables with derived columns and validated business logic.  
@@ -14,11 +14,11 @@ End-to-end SQL analytics project using BigBasket quick commerce transactional da
 
 ---
 
-## Project Overview
+## 🔍 Project Overview
 
 This project analyzes real-world BigBasket quick-commerce data using SQL Server, building a retail-grade data warehouse and uncovering actionable business insights through structured, maintainable SQL workflows.
 
-### Goals
+### 🎯 Goals
 
 - Create a robust star schema warehouse for quick commerce analytics
 - Transform, validate, and enrich raw operational data for accuracy and usability
@@ -27,13 +27,13 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 
 ---
 
-## Entity Relationship (ER) Diagram
+## 🧩 Entity Relationship (ER) Diagram
 
-*Diagram*
+diagrams/ER_diagram.png
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 ├── dataset/                            # Raw BigBasket datasets (CSV)  
@@ -52,7 +52,7 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 ├── diagrams/                           # Data architecture and ER diagrams
 └── README.md
 ```
-## Project Highlights
+## 🚀 Project Highlights
 
 - Retail-optimized star schema with fact and dimension modeling  
 - Automated cleansing and enrichment pipeline using stored procedures  
@@ -62,7 +62,7 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 
 ---
 
-## Exploratory Data Analysis (EDA) – Key Findings
+## 📊 Exploratory Data Analysis (EDA) – Key Findings
 
 - Analyzed monthly trends in customer registrations, order volume, and total revenue
 - Evaluated Average Order Value (AOV) patterns to understand customer spending behavior
@@ -74,7 +74,7 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 
 ---
 
-## Advanced Analysis – Key Insights
+## 🧪 Advanced Analysis – Key Insights
 
 - Measured MoM and YoY revenue growth to evaluate short- and long-term business momentum
 - Identified peak ordering periods by hour and weekday for demand timing analysis
@@ -86,20 +86,18 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 
 ---
 
-## Important Notes / Warnings
+## ⚠️ Important Notes / Warnings
 
 - All scripts tested using SQL Server Express; syntax may require adaptation for other platforms
 - Always run ingestion, cleaning, and transformation scripts in **bronze → silver → gold** order
-- Validate data using `silver_tests.sql` and `eda_queries/tests.sql` before analysis
-- Adhere to organizational data privacy and handling requirements
 
 ---
 
-## Contact
+## 📫 Contact
 
 For questions, collaboration, or portfolio feedback:
 
-**Email:** rohit.ydvv@gmail.com  
+**Email:** rohit.ydvv23@gmail.com  
 **LinkedIn:** linkedin.com/in/rohittydvv
 
 ---
