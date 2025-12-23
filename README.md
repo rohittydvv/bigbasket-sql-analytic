@@ -89,13 +89,13 @@ This project analyzes real-world BigBasket quick-commerce data using SQL Server,
 ## ⚠️ Important Notes / Warnings
 
 - All scripts tested using SQL Server Express; syntax may require adaptation for other platforms
-- Always run ingestion, cleaning, and transformation scripts in **bronze → silver → gold** order
+- Always run ingestion, cleaning and transformation scripts in **bronze → silver → gold** order
 
 ---
 
 ## 📫 Contact
 
-For questions, collaboration, or portfolio feedback:
+For questions, collaboration or portfolio feedback:
 
 **Email:** rohit.ydvv23@gmail.com  
 **LinkedIn:** [Rohit Yadav](https://linkedin.com/in/rohittydvv)
